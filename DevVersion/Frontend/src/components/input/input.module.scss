@@ -1,0 +1,38 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.input {
+  outline: none;
+  padding: 3px 5px;
+  border: 1px solid rgb(63, 61, 61);
+  border-radius: 10px;
+  min-width: 250px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 11px;
+}
+
+.small {
+  padding: 0 10px ;
+  border-radius: 25px;
+  font-size: 20px;
+  height: 25px;
+}
+
+.medium {
+  padding: 0 10px ;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 500;
+}

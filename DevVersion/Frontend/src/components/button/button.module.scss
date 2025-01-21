@@ -1,0 +1,23 @@
+.button {
+    border-radius: 20px;
+    background-color: rgb(65, 126, 56, 1);
+    margin: 10px;
+    user-select: none;
+    color: rgb(236, 236, 236);
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(89, 172, 76);
+    }
+
+    &.small {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    &.medium {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+}

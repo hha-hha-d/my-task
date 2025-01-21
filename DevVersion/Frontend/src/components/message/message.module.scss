@@ -1,0 +1,23 @@
+.message {
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.13);
+
+ 
+    &.error {
+        border: 3px solid rgba(255, 0, 0, 0.733);
+        font-weight: 700;
+    }
+}
+
+.message-name{
+    font-size: 20px;
+    color: rgb(165, 6, 6);
+}
+
+.message-text{
+    font-size: 15px;
+    color: rgba(165, 6, 6, 0.788);
+    margin: 10px 0 0 0;
+}
